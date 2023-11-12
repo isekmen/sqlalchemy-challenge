@@ -10,7 +10,7 @@ You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii.
 
 In this section, you’ll use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, you’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib. To do so, complete the following steps:
 
-* You will use the provided files [starter notebook](climate_starter.ipynb), and the [hawaii.sqlite] to complete your climate analysis and data exploration.
+* You will use the provided files (`climate_starter.ipynb`, and the `hawaii.sqlite`) to complete your climate analysis and data exploration.
 
 * Use the SQLAlchemy `create_engine()` to connect to the sqlite database.
 
@@ -35,6 +35,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 * Plot the results by using the DataFrame `plot` method, as the following image shows:
 
 
+![Precipitation_Plot](https://github.com/isekmen/sqlalchemy-challenge/assets/101214487/58760f32-c159-44db-930b-f1bfe81e64a0)
 
 
 * Use Pandas to print the summary statistics for the precipitation data.
@@ -55,6 +56,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
     * Plot the results as a histogram with `bins=12`, as the following image shows:
 
 
+![station_Plot](https://github.com/isekmen/sqlalchemy-challenge/assets/101214487/59b48292-c50b-41fe-9f89-c97790afd9d6)
 
 * Close your session.
 
